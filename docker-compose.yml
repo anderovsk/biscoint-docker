@@ -1,0 +1,16 @@
+version: "3"
+services: 
+  arbitragem-bot:
+    image: biscoint-docker
+    container_name: biscoint-bot
+    environment:
+     APIKEY: "paste-your-api-key"
+     APISECRET: "paste-your-api-key"
+     AMOUNT: "100"
+     AMOUNTCURRENCY: "BRL"
+     INITIALBUY: "true"
+     MINPROFITPERCENT: "0.02"
+     INTERVALSECONDS: "null"
+     PLAYSOUND: "false"
+     SIMULATION: "false"
+     EXECUTEMISSEDSECONDLOEG: "true"
