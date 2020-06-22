@@ -1,7 +1,7 @@
 version: "3"
 services: 
   arbitragem-bot:
-    image: biscoint-docker
+    image: anderondev/biscoint-bot
     container_name: biscoint-bot
     environment:
      APIKEY: "paste-your-api-key"
